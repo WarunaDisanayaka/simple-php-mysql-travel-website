@@ -193,17 +193,17 @@
     
        <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-          <a class="navbar-brand" id="logo" href="travel.html"><span>T</span>ravel</a>
+          <a class="navbar-brand" id="logo" href="travel.php"><span>T</span>ravel</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="travel.html">Home</a>
+                <a class="nav-link active" href="travel.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="travel.html  #book">Book</a>
+                <a class="nav-link" href="travel.php  #book">Book</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#packages">Packages</a>

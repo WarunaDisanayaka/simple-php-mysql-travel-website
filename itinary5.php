@@ -124,7 +124,7 @@
     
        <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-          <a class="navbar-brand" id="logo" href="travel.html"><span>T</span>ravel</a>
+          <a class="navbar-brand" id="logo" href="travel.php"><span>T</span>ravel</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
