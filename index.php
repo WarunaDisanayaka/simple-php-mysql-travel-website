@@ -42,14 +42,14 @@
    <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container">
       <img src="logo.png" height="100" width="100">
-      <a class="navbar-brand" id="logo" href="travel.html"><span>T</span>railBlaze</a>
+      <a class="navbar-brand" id="logo" href="travel.php"><span>T</span>railBlaze</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span><i class="fa-solid fa-bars"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="travel.html">Home</a>
+            <a class="nav-link active" href="travel.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#book">Book</a>
@@ -73,8 +73,8 @@
           <button class="btn btn-primary" type="button">Search</button>
         </form>
         <div class="icons">
-          <a href="login.html"><img src="https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg" alt="" width="18px">Login</a>
-          <a href="register.html"><img src="https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg" alt="" width="18px">Register</a>
+          <a href="login.php"><img src="https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg" alt="" width="18px">Login</a>
+          <a href="register.php"><img src="https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg" alt="" width="18px">Register</a>
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@
                     <img src="itinary 01.jpg" alt="" height="250">
                     <div class="card-body">
                         <h3>Itinary 01</h3>
-                        <a href="itinary1.html">Book Now</a>
+                        <a href="itinary1.php">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                     <img src="https://i.pinimg.com/736x/d7/af/36/d7af36c8d44b7f5b1d09f8426348b302.jpg" alt="" height="250">
                     <div class="card-body">
                         <h3>Itinary 02</h3>
-                        <a href="itiniary2.html">Book Now</a>
+                        <a href="itiniary2.php">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                     <img src="https://i.pinimg.com/564x/9e/05/12/9e0512a2c60f97543add6870777e746a.jpg" alt=""height="250">
                     <div class="card-body">
                         <h3>Itinary 03</h3>
-                        <a href="itinary3.html">Book Now</a>
+                        <a href="itinary3.php">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -184,7 +184,7 @@
                     <img src="https://i.pinimg.com/564x/a8/05/9b/a8059b1d9c31774c02fb3b737f36eb5f.jpg" alt="" height="250">
                     <div class="card-body">
                         <h3>Itinary 04</h3>                        
-                        <a href="itinary4.html">Book Now</a>
+                        <a href="itinary4.php">Book Now</a>
 
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                     <img src="https://i.pinimg.com/736x/02/15/65/021565f807051adf61eeaa504c212b53.jpg" alt="" height="250">
                     <div class="card-body">
                         <h3>Itinary 05</h3>                        
-                        <a href="itinary5.html">Book Now</a>
+                        <a href="itinary5.php">Book Now</a>
 
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                     <img src="https://i.pinimg.com/564x/d7/22/18/d72218f3b52bf80cfbb20ffab360b902.jpg" alt="" height="250">
                     <div class="card-body">
                         <h3>Customize your Itinary 06</h3>                        
-                        <a href="itinaryC.html">Book Now</a>
+                        <a href="itinaryC.php">Book Now</a>
 
                     </div>
                 </div>
@@ -329,7 +329,7 @@
             <center><img src="https://img.freepik.com/premium-vector/western-province-map-administrative-division-sri-lanka-vector-illustration_601298-25941.jpg" alt="" height="350" width="350"></center>
             <div class="card-body">
               <h3>Western province</h3>
-              <a href="western province.html"><button id="about-btn">view places</button></a>
+              <a href="western province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -339,7 +339,7 @@
           <center><img src="https://static.vecteezy.com/system/resources/previews/039/353/098/non_2x/central-province-map-administrative-division-of-sri-lanka-illustration-vector.jpg" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>Central province</h3>
-              <a href="central province.html"><button id="about-btn">view places</button></a>
+              <a href="central province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -348,7 +348,7 @@
           <center><img src="https://static.vecteezy.com/system/resources/previews/039/353/153/original/north-central-province-map-administrative-division-of-sri-lanka-illustration-vector.jpg" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>North Central province</h3>
-              <a href="north central province.html"><button id="about-btn">view places</button></a>
+              <a href="north central province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -360,7 +360,7 @@
           <center><img src="https://img.freepik.com/premium-vector/north-western-province-map-administrative-division-sri-lanka-vector-illustration_601298-25921.jpg" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>North Western province</h3>
-              <a href="northwestern province.html"><button id="about-btn">view places</button></a>
+              <a href="northwestern province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -370,7 +370,7 @@
           <center><img src="https://static.vecteezy.com/system/resources/previews/039/353/956/original/northern-province-map-administrative-division-of-sri-lanka-illustration-vector.jpg" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>Nothern province</h3>
-              <a href="northern province.html"><button id="about-btn">view places</button></a>
+              <a href="northern province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -379,7 +379,7 @@
           <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PCGvcBbMQcQrXtyZ2B3yuKUEBg4X-nvnJQ&s" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>Southern province</h3>
-              <a href="southern province.html"><button id="about-btn">view places</button></a>
+              <a href="southern province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -391,7 +391,7 @@
           <center><img src="https://static.vecteezy.com/system/resources/previews/039/353/115/original/sabaragamuwa-province-map-administrative-division-of-sri-lanka-illustration-vector.jpg" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>Sabaragamuwa province</h3>
-              <a href="sabaragamu province.html"><button id="about-btn">view places</button></a>
+              <a href="sabaragamu province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -401,7 +401,7 @@
           <center><img src="https://static.vecteezy.com/system/resources/previews/039/353/157/original/uva-province-map-administrative-division-of-sri-lanka-illustration-vector.jpg" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>Uva province</h3>
-              <a href="uva province.html"><button id="about-btn">view places</button></a>
+              <a href="uva province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -410,7 +410,7 @@
             <center><img src="https://static.vecteezy.com/system/resources/previews/039/354/237/original/eastern-province-map-administrative-division-of-sri-lanka-illustration-vector.jpg" alt=""height="350" width="350"></center>
             <div class="card-body">
               <h3>Eastern province</h3>
-              <a href="eastern province.html"><button id="about-btn">view places</button></a>
+              <a href="eastern province.php"><button id="about-btn">view places</button></a>
             </div>
         </div>
       </div>
@@ -446,7 +446,7 @@
         <div class="col-md-6 py-3 py-md-0">
           <h2>How TrailBlaze Works</h2>
           <p>This is about us</p>
-          <a href="about.html"><button id="about-btn">Read More...</button></a>
+          <a href="about.php"><button id="about-btn">Read More...</button></a>
         </div>
 
       </div>
