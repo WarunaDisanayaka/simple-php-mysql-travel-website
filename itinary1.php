@@ -373,7 +373,7 @@
     
     
     <div class="form">
-      <form action="/action_page.php">
+      <form  action="functions/itinary-one.php" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">
         
@@ -387,10 +387,10 @@
         <input type="email" id="email" name="email">
         
         <label for="cnumber">Contact number:</label>
-        <input type="number" id="cnumber" name="cnumber">
+        <input type="number" id="cnumber" name="phone">
         
         <label for="itinary">Choose One Day Package:</label>
-        <select name="Dayone" id="Dayone">
+        <select name="dayone" id="Dayone">
           <option value="Colombo">Colombo</option>
           <option value="Kandy">Kandy</option>
           <option value="Sigiriya">Sigiriya & Dambulla</option>
