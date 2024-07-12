@@ -105,7 +105,7 @@ td:nth-child(2) div {
 <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container">
       <img src="logo.png" height="100" width="100">
-      <a class="navbar-brand" id="logo" href="travel.html"><span>T</span>railBlaze</a>
+      <a class="navbar-brand" id="logo" href="travel.php"><span>T</span>railBlaze</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span><i class="fa-solid fa-bars"></i></span>
       </button>
