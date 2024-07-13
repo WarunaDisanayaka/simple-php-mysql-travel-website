@@ -257,7 +257,7 @@
      
      
      <div class="form">
-       <form action="/action_page.php">
+       <form action="functions/itinary-two.php" method="POST">
          <label for="name">Name:</label>
          <input type="text" id="name" name="name">
          
