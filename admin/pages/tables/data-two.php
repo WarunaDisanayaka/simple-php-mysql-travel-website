@@ -204,8 +204,6 @@
                   <p>Itinary Two</p>
                 </a>
               </li>
-
-            
               
             </ul>
           </li>   
@@ -242,11 +240,11 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Itinary One</h3>
+                        <h3 class="card-title">Itinary Two</h3>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <table id="example2" class="table table-bordered table-hover">
+                    <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
                                     <th>Name</th>
@@ -254,7 +252,7 @@
                                     <th>NIC/Passport</th>
                                     <th>Email</th>
                                     <th>Contact Number</th>
-                                    <th>Package</th>
+                                    <th>Itinerary</th>
                                     <th>Status</th>
                                     <th>Action</th>
                                 </tr>
@@ -264,11 +262,10 @@
                                 include '../../../inc/db_connection.php';
 
                                 // Fetch data query
-                                $sql = "SELECT id, name, location, nic, email, phone, package, status FROM itinary_one";
+                                $sql = "SELECT id, name, location, nic, email, phone, itinary, status FROM itinary_two";
                                 $result = $conn->query($sql);
 
                                 if ($result->num_rows > 0) {
-                                    // Output data of each row
                                     while ($row = $result->fetch_assoc()) {
                                         echo "<tr>";
                                         echo "<td>" . $row['name'] . "</td>";
@@ -276,10 +273,10 @@
                                         echo "<td>" . $row['nic'] . "</td>";
                                         echo "<td>" . $row['email'] . "</td>";
                                         echo "<td>" . $row['phone'] . "</td>";
-                                        echo "<td>" . $row['package'] . "</td>";
+                                        echo "<td>" . $row['itinary'] . "</td>";
                                         echo "<td>" . $row['status'] . "</td>";
                                         echo "<td>
-                                                <form action='../../../functions/update_status.php' method='POST'>
+                                                <form action='../../../functions/update_status_two.php' method='POST' style='display:inline;'>
                                                     <input type='hidden' name='id' value='" . $row['id'] . "'>
                                                     <select name='status' onchange='this.form.submit()' class='form-control form-control-sm'>
                                                         <option value='pending'" . ($row['status'] == 'pending' ? ' selected' : '') . ">Pending</option>
@@ -287,9 +284,9 @@
                                                         <option value='in progress'" . ($row['status'] == 'in progress' ? ' selected' : '') . ">In Progress</option>
                                                     </select>
                                                 </form>
-                                                <form action='../../../functions/delete_record.php' method='POST'>
+                                                <form action='../../../functions/delete_record_two.php' method='POST' style='display:inline;'>
                                                     <input type='hidden' name='id' value='" . $row['id'] . "'>
-                                                    <button type='submit' onclick='return confirm(\"Are you sure you want to delete this record?\")' class='btn btn-danger btn-sm mt-1'>Delete</button>
+                                                    <button type='submit' onclick='return confirm(\"Are you sure you want to delete this record?\")' class='btn btn-danger btn-sm'>Delete</button>
                                                 </form>
                                               </td>";
                                         echo "</tr>";
@@ -308,7 +305,7 @@
                                     <th>NIC/Passport</th>
                                     <th>Email</th>
                                     <th>Contact Number</th>
-                                    <th>Package</th>
+                                    <th>Itinerary</th>
                                     <th>Status</th>
                                     <th>Action</th>
                                 </tr>
