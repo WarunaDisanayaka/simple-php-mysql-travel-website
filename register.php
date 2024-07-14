@@ -189,14 +189,14 @@
        <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
           <img src="logo.png" height="100" width="100">
-          <a class="navbar-brand" id="logo" href="travel.php"><span>T</span>railBlaze</a>
+          <a class="navbar-brand" id="logo" href="index.php"><span>T</span>railBlaze</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="travel.php">Home</a>
+                <a class="nav-link active" href="index.php">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#book">Book</a>
