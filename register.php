@@ -248,19 +248,16 @@
       <div class="col-md-7 py-3 py-md-0" id="side2">
         <h3 class="text-center">Create an Account</h3>
         <div class="input2 text-center">
+        <form action="functions/registration.php" method="POST">
 
-        <input type="name" placeholder="Name">
-        <input type="uname" placeholder="User name">
-        <input type="Number" placeholder="Phone">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
-        </div>
+        <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="username" placeholder="User name" required>
+                <input type="text" name="phone" placeholder="Phone">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
         
-        <p class="text-center" id="btnlogin"><a href="#">SIGNUP</a></p>
-        
-
-
-
+        <p class="text-center" id="btnlogin"><button type="submit">SIGNUP</button></p>
+    </form>
       </div>
       </div>
     </div>
