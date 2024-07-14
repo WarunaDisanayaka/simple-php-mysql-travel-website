@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -246,29 +249,27 @@
         <h3 class="text-center">Welcome Back!</h3>       
       </div>
       <div class="col-md-7 py-3 py-md-0" id="side2">
-        <h3 class="text-center">Account Login</h3>
-
-        <div class="input2 text-center">
-
-
-        <!-- <input type="name" placeholder="User name"> -->
-        <label for="username">Username:</label>
-         
-
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <!-- <input type="password" placeholder="Password"> -->
-
-        <input type="submit" value="Login">
-
-        <!-- <p class="text-center" id="btnlogin"><a href="#">LOG IN</a></p> -->
-        <p class="text-center">Forgot Password<a href="#">Click</a></p>
-
-
-
-      </div>
+    <h3 class="text-center">Account Login</h3>
+    <div class="input2 text-center">
+        <form action="functions/login.php" method="POST">
+            <?php
+            if (isset($_SESSION['errors'])) {
+              foreach ($_SESSION['errors'] as $error) {
+                echo "<p style='color: red;'>$error</p>";
+              }
+              unset($_SESSION['errors']);
+            }
+            ?>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Login">
+        </form>
+        <p class="text-center">Forgot Password? <a href="#">Click</a></p>
+    </div>
+</div>
       </div>
     </div>
    </div>
